@@ -6,7 +6,7 @@ I work as core developer and maintainer across three active projects. Below is w
 
 ---
 
-### 🔗 [Accensa](https://github.com/accensa) — merchant back-office for x402 sellers on Stellar
+### 🔗 [Accensa](https://accensa-dashboard.vercel.app/) — merchant back-office for x402 sellers on Stellar
 *Core developer & maintainer of all three repos.*
 
 x402 lets an AI agent pay for an API call over HTTP — but the merchant is left reading raw ledger transfers with no revenue view, no per-route attribution, and no way to resolve a dispute. Accensa closes that gap: an indexer reconstructs payment history from Stellar, receipts are Merkle-anchored on-chain so agents can verify them without trusting the seller's dashboard, and a refund vault runs on an enforced, non-custodial policy.
@@ -19,7 +19,7 @@ x402 lets an AI agent pay for an API call over HTTP — but the merchant is left
 
 ---
 
-### 🔗 [Tollcraft](https://github.com/Tollcraft) — cost-awareness pipeline for Soroban contracts
+### 🔗 [Tollcraft](https://tollcraft.github.io/soroban-cost-profiler/) — cost-awareness pipeline for Soroban contracts
 *Core developer.* Accepted into the Stellar Wave Program (Drips Wave 7).
 
 Soroban meters CPU, memory, and storage — and many expensive mistakes are structurally obvious before you ever hit testnet. Tollcraft is a three-tier pipeline that catches them earlier and earlier: a compile-time linter, a CI-blocking runtime assertion layer, and a flamegraph profiler for when a budget check fails and you need to know exactly where the cost went.
@@ -32,7 +32,7 @@ Soroban meters CPU, memory, and storage — and many expensive mistakes are stru
 
 ---
 
-### 🔗 [StaffPurse](https://github.com/StaffPurse/staffpurse-app) — spend control for informal micro-businesses
+### 🔗 [StaffPurse](https://github.com/StaffPurse/) — spend control for informal micro-businesses
 *Core developer.* Built for BMONI's "Hack the Future" hackathon.
 
 Nigerian micro-businesses that can't clear formal registration or multi-tier banking approval still need to delegate spending to staff. StaffPurse issues capped virtual cards backed by BMONI's embedded smart wallets, so an owner keeps self-custody of the main balance while staff get a hardware-keystore-secured card with a hard spend ceiling.
