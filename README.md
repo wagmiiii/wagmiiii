@@ -27,7 +27,7 @@ Soroban meters CPU, memory, and storage — and many expensive mistakes are stru
 | Repo | Tier | Stars |
 |---|---|---|
 | [`soroban-cost-linter`](https://github.com/Tollcraft/soroban-cost-linter) | 1 — static AST lints (storage-in-loop, redundant clones, redundant host calls), Dylint-powered | 30 |
-| [`soroban-budget-assert`](https://github.com/Tollcraft/soroban-budget-assert) | 2 — `#[budget_cpu_lt(N)]` test macros + a workspace-wide network-verified cost report | 0 |
+| [`soroban-budget-assert`](https://github.com/Tollcraft/soroban-budget-assert) | 2 — `#[budget_cpu_lt(N)]` test macros + a workspace-wide network-verified cost report | 41 |
 | [`soroban-cost-profiler`](https://github.com/Tollcraft/soroban-cost-profiler) | 3 — DWARF-mapped WASM execution tracing → flamegraphs | 1 |
 
 ---
